@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BighiniLuca", "BighiniLuca\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{FCA53A70-04A6-4117-B0C4-287087E72393}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TellariniPietro", "TellariniPietro\TellariniPietro.csproj", "{99DC84E5-FB3B-4A3E-90D5-DBB64E42D0F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{FCA53A70-04A6-4117-B0C4-287087E72393}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCA53A70-04A6-4117-B0C4-287087E72393}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCA53A70-04A6-4117-B0C4-287087E72393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99DC84E5-FB3B-4A3E-90D5-DBB64E42D0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DC84E5-FB3B-4A3E-90D5-DBB64E42D0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DC84E5-FB3B-4A3E-90D5-DBB64E42D0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DC84E5-FB3B-4A3E-90D5-DBB64E42D0F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
