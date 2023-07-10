@@ -1,14 +1,12 @@
-using System;
-using System.Threading;
 
-namespace brickbreaker.common
+namespace TellariniPietro.common
 {
     public class Chronometer
     {
         private int time;
         private bool isRunning;
         private bool exit;
-        private Thread thread;
+        private Thread? thread;
         private readonly object lockObject;
 
         public Chronometer()

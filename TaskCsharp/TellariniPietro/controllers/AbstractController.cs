@@ -1,13 +1,8 @@
-using BrickBreaker.Controllers.Listener;
-using BrickBreaker.Models;
-using BrickBreaker.Models.Controller;
-using BrickBreaker.Models.GameObjects;
-using BrickBreaker.Models.Levels;
-using BrickBreaker.Models.Ranks;
 
-namespace BrickBreaker.Controllers
+
+namespace TellariniPietro.Controllers
 {
-    public abstract class AbstractController : AnimationTimer
+    public abstract class AbstractController
     {
         private UserController userController;
         private ErrorListener errorListener;

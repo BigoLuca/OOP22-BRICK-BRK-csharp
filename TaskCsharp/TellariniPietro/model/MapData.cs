@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using brickbreaker.common;
+using TellariniPietro.common;
 
-namespace brickbreaker.model.map
+namespace TellariniPietro.model
 {
     public class MapData
     {
@@ -23,9 +23,9 @@ namespace brickbreaker.model.map
             Landscape = landscape;
         }
 
-        public GameImages GetLandscape()
+        public String GetLandscape()
         {
-            return (GameImages)System.Enum.Parse(typeof(GameImages), Landscape);
+            return Landscape;
         }
 
         public void SetLandscape(string landscape)
